@@ -1,0 +1,57 @@
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #171717 !important;
+}
+
+.heading{
+    display: grid;
+    place-items: center;
+}
+
+.heading h2{
+    font-size: 3rem;
+    margin-top: 10%;
+}
+
+.calc{
+    display: grid;
+    place-items: center;
+    margin-top: 2%;
+}
+
+.textfield input{
+    height: 50px;
+    width: 400px;
+    margin-top: 2%;
+    text-align: right;
+    font-size: 1.8rem;
+}
+
+.buttons{
+    margin-top: 1%;
+    background: black;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 5px;
+}
+
+.buttons .btn{
+    margin: 5%;
+    font-size: 1.3rem;
+}
+
+.buttons .btn:hover{
+    color: white;
+}
+
